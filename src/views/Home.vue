@@ -30,7 +30,7 @@
                 </div>
                 <div class="w-full lg:w-[40%] lg:h-[700px] flex justify-center">
                     <div class=" w-full rounded-md">
-                        <img class="h-full max-w-full rounded-md" src="../assets/founder.jpg" alt="">
+                        <img class="lg:h-full max-w-full rounded-md" src="../assets/founder.jpg" alt="">
                     </div>
                 </div>
             </div>
