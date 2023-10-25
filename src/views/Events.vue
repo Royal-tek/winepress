@@ -4,7 +4,7 @@
     </div>
 
     <div class="w-full">
-        <div class="container mx-auto py-10">
+        <div class="container mx-auto py-10 px-5 md:px-o">
             <h2 class="text-3xl font-bold mb-5 text-primary">Featured Events</h2>
 
             <div class="w-full flex flex-col gap-3 my-3">
