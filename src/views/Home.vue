@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full h-screen bg-banner bg-cover bg-center bg-no-repeat">
-        
+    <div class="w-full h-screen bg-banner bg-cover bg-center bg-no-repeat flex items-center justify-center">
+        <h2 class="text-5xl text-white font-bold">Welcome to Winepress Ministries</h2>
     </div>
 
     <div class="w-full py-14">

@@ -10,8 +10,8 @@
             <div class="hidden md:flex gap-12 justify-between">
             <router-link to="/" class="text-[#667085] cursor-pointer font-bold hover:text-primary">Home</router-link>
             <router-link to="/" class="text-[#667085] cursor-pointer font-bold hover:text-primary">Giving</router-link>
-            <router-link to="/" class="text-[#667085] cursor-pointer font-bold hover:text-primary" @click="triggerMinistries">Ministries</router-link>
-            <router-link to="/event" class="text-[#667085] cursor-pointer font-bold hover:text-primary">Event</router-link>
+            <span class="text-[#667085] cursor-pointer font-bold hover:text-primary" @click="triggerMinistries">Ministries</span>
+            <router-link to="/events" class="text-[#667085] cursor-pointer font-bold hover:text-primary">Events</router-link>
             </div>
 
             <div class="block md:hidden">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="px-2 py-3 cursor-pointer">
-            <router-link class="text-[#667085] hover:text-primary" to="/event">Event</router-link>
+            <router-link class="text-[#667085] hover:text-primary" to="/events">Events</router-link>
         </div>
     </div>
 </template>
