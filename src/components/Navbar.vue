@@ -60,25 +60,25 @@
     </div>
     </div>
 
-    <div class="md:hidden w-full bg-white absolute flex flex-col border-t" v-if="mobileNav">
+    <div class="md:hidden w-full bg-white absolute flex flex-col border-t z-50" v-if="mobileNav">
         <div class="px-2 py-3 cursor-pointer">
-            <router-link class="text-[#667085] hover:text-primary" to="/">Home</router-link>
+            <router-link class="text-[#667085] hover:text-primary" @click="closeAll" to="/">Home</router-link>
         </div>
 
         <div class="px-2 py-3 cursor-pointer">
-            <router-link class="text-[#667085] hover:text-primary" to="/">Giving</router-link>
+            <router-link class="text-[#667085] hover:text-primary" @click="closeAll" to="/">Giving</router-link>
         </div>
         <div class="px-2 py-3 cursor-pointer flex flex-col">
             <span @click="toggleMobileMinistries" class="flex items-center gap-2 text-[#667085] hover:text-primary"><span>Ministries</span> <i class="fa fa-caret-down"></i> </span>
             <div class="flex flex-col gap-1" v-if="mobileMinistries">
-                <router-link class="my-3 text-sm" to="/">Men of Ministry</router-link>
-                <router-link class="my-3 text-sm" to="/">Gracious Women</router-link>
-                <router-link class="my-3 text-sm" to="/">Royalties: Children and Teens</router-link>
-                <router-link class="my-3 text-sm" to="/">Youths</router-link>
+                <router-link class="my-3 text-sm" @click="closeAll" to="/ministries/men-of-integrity">Men of Ministry</router-link>
+                <router-link class="my-3 text-sm" @click="closeAll" to="/ministries/gracious-women">Gracious Women</router-link>
+                <router-link class="my-3 text-sm" @click="closeAll" to="/ministries/royalties">Royalties: Children and Teens</router-link>
+                <router-link class="my-3 text-sm" @click="closeAll" to="/ministries/youths">Youths</router-link>
             </div>
         </div>
         <div class="px-2 py-3 cursor-pointer">
-            <router-link class="text-[#667085] hover:text-primary" to="/events">Events</router-link>
+            <router-link class="text-[#667085] hover:text-primary" @click="closeAll" to="/events">Events</router-link>
         </div>
     </div>
 </template>
@@ -104,6 +104,7 @@ export default {
             this.mobileMinistries = !this.mobileMinistries
         },
         closeAll(){
+            this.mobileNav = false
             this.ministries = false
             this.mobileMinistries = false
         }

@@ -1,12 +1,12 @@
 <template>
     <div class="w-full h-screen ">
-        <div class="w-full h-full bg-banner bg-cover bg-center"></div>
+        <div class="w-full h-full bg-bannerMobile md:bg-banner bg-cover bg-center"></div>
     </div>
 
     <div class="w-full py-14">
         <div class="container mx-auto px-5 md:px-0 flex items-center justify-center flex-col md:flex-row gap-6">
             <div class="w-full md:w-[50%]">
-                <p class="text-primary font-bold uppercase text-xl my-4">Join us this weekend</p>
+                <p class="text-primary font-bold uppercase text-xl my-4">Join us this sunday</p>
                 <p class="text-black font-bold uppercase text-4xl my-4 w-full md:max-w-xl">We are excited to have <span class="text-primary">you</span> are here! </p>
                 <p class="w-full md:max-w-lg my-4">We are delighted that you are here and we want you to know that you're among friends. Whether you are new to the area, looking for a church, home, or just exploring your faith , we invite you to join us as we seek to grow in our relationship with God and with one another. Come as you are and discover the warmth of our community.</p>
             </div>

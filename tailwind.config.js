@@ -7,6 +7,7 @@ export default {
   theme: {
     backgroundImage: {
       banner: 'url(../assets/wine.png)',
+      bannerMobile: 'url(../assets/heormob.png)',
       banner2: 'url(../assets/banner.jpg)',
       mission: 'url(../assets/mission.jpg)',
       belief: 'url(../assets/belief.jpg)',
