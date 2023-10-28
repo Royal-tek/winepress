@@ -14,7 +14,7 @@
             </div>
 
             <div class="hidden md:block">
-                <button class="border bg-primary px-8 py-3 rounded-md text-white" @click="closeAll">Giving</button>
+                <button class="border bg-primary px-8 py-3 rounded-md text-white" @click="triggerGive">Giving</button>
             </div>
 
             <div class="block md:hidden">
@@ -104,6 +104,12 @@ export default {
             this.mobileMinistries = !this.mobileMinistries
         },
         closeAll(){
+            this.mobileNav = false
+            this.ministries = false
+            this.mobileMinistries = false
+        },
+        triggerGive(){
+            this.$store.state.give = true
             this.mobileNav = false
             this.ministries = false
             this.mobileMinistries = false

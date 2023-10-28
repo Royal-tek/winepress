@@ -6,19 +6,19 @@
                     <div class="col-span-1">
                         <h2 class="font-bold text-2xl">Winepress Ministries</h2>
                         <div class="flex flex-col gap-3 mt-4">
-                            <h4>Mission and Vision</h4>
+                            <h4><router-link to="mission">Mission and Vision</router-link></h4>
                             <h4>Founders</h4>
-                            <h4>Our beliefs</h4>
-                            <h4>Events</h4>
+                            <h4><router-link to="beliefs">Our beliefs</router-link></h4>
+                            <h4><router-link to="/events">Events</router-link></h4>
                         </div>
                     </div>
                     <div class="col-span-1">
                         <h2 class="font-bold text-2xl">Ministries</h2>
                         <div class="flex flex-col gap-3 mt-4">
-                            <h4>Men of Ministry</h4>
-                            <h4>Gracious Women</h4>
-                            <h4>Children and Teens</h4>
-                            <h4>Youths</h4>
+                            <h4><router-link to="/ministries/men-of-integrity">Men of Integrity</router-link></h4>
+                            <h4><router-link to="/ministries/gracious-women">Gracious Women</router-link></h4>
+                            <h4><router-link to="/ministries/royalties">Children and Teens</router-link></h4>
+                            <h4><router-link to="/ministries/youths">Youths</router-link></h4>
                         </div>
                     </div>
                     
