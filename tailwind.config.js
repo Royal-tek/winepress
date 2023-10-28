@@ -6,10 +6,17 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      banner: 'url(../assets/banner.jpg)',
+      banner: 'url(../assets/wine.png)',
+      banner2: 'url(../assets/banner.jpg)',
       mission: 'url(../assets/mission.jpg)',
       belief: 'url(../assets/belief.jpg)',
       founders: 'url(../assets/founder.jpg)',
+      man: 'url(../assets/man.avif)',
+      woman: 'url(../assets/women.avif)',
+      woman2: 'url(../assets/wogroup.jpg)',
+      children: 'url(../assets/kidd.jpg)',
+      youth: 'url(../assets/youth.jpg)',
+      
     },
     extend: {
       colors: {

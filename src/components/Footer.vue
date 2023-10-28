@@ -2,7 +2,7 @@
     <div class="w-full bg-white py-10">
         <div class="container mx-auto px-5 md:px-0 flex flex-col md:flex-row gap-6">
             <div class="w-[70%]">
-                <div class="w-full grid md:grid-cols-3 gap-4">
+                <div class="w-full grid md:grid-cols-2 gap-4 font-semibold">
                     <div class="col-span-1">
                         <h2 class="font-bold text-2xl">Winepress Ministries</h2>
                         <div class="flex flex-col gap-3 mt-4">
@@ -21,15 +21,13 @@
                             <h4>Youths</h4>
                         </div>
                     </div>
-                    <div class="col-span-1">
-                        jnjj
-                    </div>
+                    
                 </div>
 
             </div>
 
             <div class="w-full md:w-[30%]">
-                <div class="bg-[#81276D] w-full px-5 py-10 rounded-lg ">
+                <div class="bg-[#81276D] w-full px-5 py-10 rounded-xl font-medium ">
                     <div class="flex items-center  gap-3">
                         <img src="../assets/logo.png" class="h-10" alt="">
                         <span class="text-white font-bold">Winepress Ministries</span>

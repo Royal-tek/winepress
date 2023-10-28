@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[40vh] bg-banner bg-cover bg-center bg-no-repeat flex items-center justify-center">
+    <div class="w-full h-[40vh] bg-banner2 bg-cover bg-center bg-no-repeat flex items-center justify-center">
         <h2 class="text-4xl text-white font-bold">Events</h2>
     </div>
 

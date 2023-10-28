@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full h-screen bg-banner bg-cover bg-center bg-no-repeat flex items-center justify-center">
-        <h2 class="text-5xl text-white font-bold">Welcome to Winepress Ministries</h2>
+    <div class="w-full h-screen ">
+        <div class="w-full h-full bg-banner bg-cover bg-center"></div>
     </div>
 
     <div class="w-full py-14">
@@ -21,12 +21,16 @@
         <div class="container mx-auto p-5 lg:p-20">
             <div class="w-full flex flex-col lg:flex-row gap-3 items-center">
                 <div class="w-full lg:w-[60%] lg:h-[700px] flex flex-col gap-6 justify-center">
-                    <div class=" w-full rounded-md">
-                        <img class="max-w-full rounded-md" src="../assets/mission.jpg" alt="">
-                    </div>
-                    <div class=" rounded-md">
-                        <img class="max-w-full rounded-md" src="../assets/belief.jpg" alt="">
-                    </div>
+                    <div class="w-full rounded-md image-container">
+      <router-link to="/mission">
+        <img class="max-w-full rounded-md image" src="../assets/mission.jpg" alt="">
+      </router-link>
+    </div>
+    <div class="rounded-md image-container">
+      <router-link to="/beliefs">
+        <img class="max-w-full rounded-md image" src="../assets/belief.jpg" alt="">
+      </router-link>
+    </div>
                 </div>
                 <div class="w-full lg:w-[40%] lg:h-[700px] flex justify-center">
                     <div class=" w-full rounded-md">
@@ -37,3 +41,17 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.image-container {
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .image {
+  transform: scale(1.1); /* Zoom in when hovering */
+}
+
+.image {
+  transition: transform 0.3s ease;
+}
+</style>
