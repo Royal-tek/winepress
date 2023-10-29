@@ -20,7 +20,7 @@ export default {
 
 <template>
 
-  <div class="fixed top-0 left-0  bg-black bg-opacity-60 w-full h-full flex items-center justify-center" v-if="getGive">
+  <div class="fixed top-0 left-0  bg-black bg-opacity-60 w-full h-full flex items-center justify-center z-50" v-if="getGive">
     <div class="w-max p-5 bg-white rounded-md">
       <div class="w-full flex justify-between items-center border-b">
         <div><p class="font-bold text-2xl">Give</p></div>
