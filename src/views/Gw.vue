@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[80vh] bg-woman2 bg-center bg-cover bg-no-repeat relative bg-fixed">
+    <div class="w-full h-[80vh] bg-woman bg-center bg-cover bg-no-repeat relative bg-fixed">
         <div class="absolute inset-0 bg-black opacity-50 flex items-center justify-center">
             <h3 class="text-white text-6xl uppercase z-50">Gracious Women</h3>
         </div>

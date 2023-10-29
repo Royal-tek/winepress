@@ -13,9 +13,9 @@ export default {
       belief: 'url(../assets/belief.jpg)',
       founders: 'url(../assets/founder.jpg)',
       man: 'url(../assets/man.avif)',
-      woman: 'url(../assets/women.avif)',
+      woman: 'url(../assets/womannn.jpg)',
       woman2: 'url(../assets/wogroup.jpg)',
-      children: 'url(../assets/kidd.jpg)',
+      children: 'url(../assets/children.jpg)',
       youth: 'url(../assets/youth.jpg)',
       
     },

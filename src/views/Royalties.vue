@@ -7,7 +7,7 @@
 
     <div class="w-full container mx-auto px-5 md:px-0 py-10 flex items-center flex-col md:flex-row justify-center gap-6 my-6">
         <div class="w-full md:w-[50%]">
-            <img class="w-full " src="../assets/kiddo.jpg" alt="">
+            <img class="w-full " src="../assets/kids.jpeg" alt="">
         </div>
         <div class="w-full md:w-[50%]">
             <p class="my-4">Our Royalties Program at Winepress Ministries is dedicated to nurturing the faith of our youngest members. We believe that children are a precious gift from God and should be raised in the ways of the Lord. Proverbs 22:6 provides our guiding principle: "Train up a child in the way he should go; even when he is old he will not depart from it" (ESV).</p>

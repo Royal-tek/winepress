@@ -6,9 +6,9 @@
                     <div class="col-span-1">
                         <h2 class="font-bold text-2xl">Winepress Ministries</h2>
                         <div class="flex flex-col gap-3 mt-4">
-                            <h4><router-link to="mission">Mission and Vision</router-link></h4>
+                            <h4><router-link to="/mission">Mission and Vision</router-link></h4>
                             <h4>Founders</h4>
-                            <h4><router-link to="beliefs">Our beliefs</router-link></h4>
+                            <h4><router-link to="/beliefs">Our beliefs</router-link></h4>
                             <h4><router-link to="/events">Events</router-link></h4>
                         </div>
                     </div>
