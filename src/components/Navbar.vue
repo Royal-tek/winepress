@@ -65,9 +65,7 @@
             <router-link class="text-[#667085] hover:text-primary" @click="closeAll" to="/">Home</router-link>
         </div>
 
-        <div class="px-2 py-3 cursor-pointer">
-            <router-link class="text-[#667085] hover:text-primary" @click="closeAll" to="/">Giving</router-link>
-        </div>
+        
         <div class="px-2 py-3 cursor-pointer flex flex-col">
             <span @click="toggleMobileMinistries" class="flex items-center gap-2 text-[#667085] hover:text-primary"><span>Ministries</span> <i class="fa fa-caret-down"></i> </span>
             <div class="flex flex-col gap-1" v-if="mobileMinistries">
@@ -78,7 +76,11 @@
             </div>
         </div>
         <div class="px-2 py-3 cursor-pointer">
-            <router-link class="text-[#667085] hover:text-primary" @click="closeAll" to="/events">Events</router-link>
+            <router-link class="text-[#667085] hover:text-primary w-full" @click="closeAll" to="/events">Events</router-link>
+        </div>
+
+        <div class="bg-primary px-2 py-3 cursor-pointer"  @click="triggerGive">
+            <span class="text-white">Giving</span>
         </div>
     </div>
 </template>
